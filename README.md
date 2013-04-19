@@ -21,6 +21,7 @@ author.
 Library Documentation
 ---------------------
 
+'''
 //SinglePin & SingleOutput modes
 #define CONTINUOUS 0x2
 #define TIMEOUT 0x3
@@ -91,4 +92,4 @@ void SingleOutput(int mode, int step, int output, int channel);
 void SinglePin(int mode, int function, int pin, int output, int channel);
 void ComboMode(int blue_speed, int red_speed, int channel);
 void ComboPWM(int blue_pwm, int red_pwm, int channel);
-
+'''
