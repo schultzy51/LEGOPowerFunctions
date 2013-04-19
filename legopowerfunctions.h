@@ -18,7 +18,7 @@ Roland Wiersma
 #ifndef legopowerfunctions_h
 #define legopowerfunctions_h
 
-#include <WProgram.h>
+#include <Arduino.h>
 
 //SinglePin & SingleOutput modes
 #define CONTINUOUS 0x2
